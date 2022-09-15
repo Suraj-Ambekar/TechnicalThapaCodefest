@@ -6,7 +6,7 @@
 
 nav{
     width: 100vw;
-    padding: 1.5rem;
+    padding: 1.5rem 2.5rem;
     background-color: aqua;
 }
 nav .navbar{
@@ -16,10 +16,10 @@ nav .navbar{
     align-items: center;
 }
 nav .navbar .brand-name{
-    /* width: 40%; */
+    width: 290px;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
+    justify-content: space-between;
     align-items: center;
 }
 nav .navbar .nav-menu{
@@ -30,12 +30,18 @@ nav .navbar .nav-menu{
     align-items: center;
 }
 
-nav .navbar .brand-name img{
-    width: 2rem;
+nav .navbar .brand-name div {
+    display: flex;
+    align-items: center;
+}
+
+nav .navbar .brand-name div img{
+    width: 1.5rem;
+    margin-right: 0.7rem;
     
 }
-nav .navbar .brand-name span{
-    font-size: 1.5rem;
+nav .navbar .brand-name div span{
+    font-size: 1.2rem;
     font-weight: 600;
     color: black;
 }
@@ -45,5 +51,6 @@ nav .navbar .brand-name span{
  nav .navbar .nav-menu a{
     text-decoration: none;
     color: black;
+    font-weight: 700;
  }
 
