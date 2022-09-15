@@ -5,6 +5,8 @@
     font-family: sans-serif;
 }
 
+/* nav bar starts */
+
 nav{
     width: 100vw;
     padding: 1.2rem 2.5rem;
@@ -106,4 +108,63 @@ nav .navbar .brand-name div span{
     color: black;
     font-weight: 700;
  }
+
+
+
+
+ /* First Section */
+
+ .sone{
+    width: 100vw;
+    height: 36vw;
+    /* background-color: #f08080; */
+    background-color: #3a00e9;
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 3.125rem;
+    line-height: 3rem;
+ }
+
+ .sone .cotainer{
+    width: 40px;
+    text-align: center;
+    line-height: 2rem;
+    /* padding: 3rem; */
+    /* display: flex;
+    flex-direction: column;
+    gap: 4rem; */
+ }
+
+ .sone .container h1{
+    font-size: 2.15rem;
+ }
+.sone .container .csign{
+    font-size: 1.5rem;
+    /* text-align: center; */
+}
+.sone .container .price{
+    font-size: 4rem;
+    font-weight: 700;
+
+    /* text-align: start; */
+}
+.sone .container .date{
+    font-size: 1.5rem;
+    /* text-align: start; */
+}
+.sone .container button{
+    padding: 0.7rem 2rem;
+    background-color: #FC5185;
+    border-radius: 30px;
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: white;
+}
+
+
+
 
