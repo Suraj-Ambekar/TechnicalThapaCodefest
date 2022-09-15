@@ -3,3 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+nav .navbar .brand-name img{
+    width: 2rem;
+    
+}
+nav .navbar .brand-name span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
