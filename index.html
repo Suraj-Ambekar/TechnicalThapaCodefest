@@ -60,6 +60,24 @@
             <h1>Saving to Set Your Website in Motion</h1>
             <span class="csign">₹</span><span class="price">149.00</span><span class="date">/mo</span>
             <p>Make Moves with a free domain and SSL included with a four-year subscription.</p>
+            <div class="launch-time">
+                <div>
+                    <p class="days">00</p>
+                    <span>Days</span>
+                </div>
+                <div class="hours">
+                    <p>00</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p class="Minutes">00</p>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <p class="Seconds">00</p>
+                    <span>Seconds</span>
+                </div>
+            </div>
             <button>Get Started</button>
             <p>Get exclusive 30-day money-back guarantee</p>
         </div>
@@ -80,7 +98,34 @@
 
 
     <!-- java script -->
+    
     <script src="https://kit.fontawesome.com/7089a4f258.js" crossorigin="anonymous"></script>
+    <!-- javascript for countdown -->
+    <script>
+        var countDownDate = new Date("Oct 15, 2023 00:00:00").getTime();
+        var x = setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("Seconds").innerHTML = Seconds;
+
+            if(distance < 0){
+                clearInterval(x;
+                document.getElementById("days").innerHTML = "00";
+                document.getElementById("hours").innerHTML = "00";
+                document.getElementById("minutes").innerHTML = "00";
+                document.getElementById("Seconds").innerHTML = "00";)
+            }
+                },1000);
+    </script>
 
 </body>
 </html>

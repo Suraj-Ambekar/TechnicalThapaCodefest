@@ -149,6 +149,20 @@ nav .navbar .brand-name div span{
     font-size: 1.5rem;
     /* text-align: start; */
 }
+
+.sone .container .launch-time{
+    display: flex;
+    justify-content: center;
+}
+.sone .container .launch-time div{
+    flex-basis: 100px;
+}
+.sone .container .launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+
+
 .sone .container button{
     padding: 0.7rem 2rem;
     background-color: #FC5185;
