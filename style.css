@@ -119,24 +119,17 @@ nav .navbar .brand-name div span{
     height: 36vw;
     /* background-color: #f08080; */
     background-color: #3a00e9;
-    color: white;
-    text-align: center;
-    line-height: 2rem;
+    padding: 2.7rem;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    padding: 3.125rem;
-    line-height: 3rem;
  }
 
- .sone .cotainer{
-    width: 40px;
+ .sone .container{
+    width: 40%;
+    color: white;
     text-align: center;
-    line-height: 2rem;
-    /* padding: 3rem; */
-    /* display: flex;
-    flex-direction: column;
-    gap: 4rem; */
+    line-height: 3.5rem;
+    
  }
 
  .sone .container h1{
@@ -159,6 +152,7 @@ nav .navbar .brand-name div span{
 .sone .container button{
     padding: 0.7rem 2rem;
     background-color: #FC5185;
+    border: none;
     border-radius: 30px;
     font-size: 1.125rem;
     font-weight: 800;
