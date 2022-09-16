@@ -116,7 +116,7 @@ nav .navbar .brand-name div span{
 
  .sone{
     width: 100vw;
-    height: 36vw;
+    /* height: 36vw; */
     /* background-color: #f08080; */
     background-color: #3a00e9;
     padding: 2.7rem;
@@ -153,14 +153,34 @@ nav .navbar .brand-name div span{
 .sone .container .launch-time{
     display: flex;
     justify-content: center;
+    /* align-items: center; */
 }
 .sone .container .launch-time div{
-    flex-basis: 100px;
+    /* margin-left: 0px; */
+    /* flex-basis: 70px; */
+    /* align-self: center; */
+    display: flex; 
+    flex-direction: column;
+    margin-right: .5rem;
+    /* justify-content: space-between; */
+    /* column-gap: 2000px; */
 }
+
 .sone .container .launch-time div p{
     font-size: 60px;
     margin-bottom: -14px;
 }
+
+.countdown{
+    text-align: center;
+    width: 3.375rem;
+    background-color: white; 
+    /* padding: 4rem;  */
+    color: black;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
 
 
 .sone .container button{
@@ -171,6 +191,11 @@ nav .navbar .brand-name div span{
     font-size: 1.125rem;
     font-weight: 800;
     color: white;
+}
+
+.sone .container .material-symbols-outlined{
+    color: rgb(0, 242, 0);
+    font-size: 1.5rem;
 }
 
 
