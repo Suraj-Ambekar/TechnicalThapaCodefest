@@ -198,6 +198,43 @@ nav .navbar .brand-name div span{
     font-size: 1.5rem;
 }
 
+/* Section 2 - pricing section- */
+
+.pricing{
+    width: 100vw;
+}
+
+.pricing .brand-icons{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.pricing .brand-icons div{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 2rem; */
+}
+
+.pricing .brand-icons i{
+    font-size: 2rem;
+    color: rgb(153, 151, 151);
+    margin-right: 0.3em;
+}
+
+.pricing .brand-icons span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(153, 151, 151);
+}
 
 
 
