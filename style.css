@@ -118,7 +118,7 @@ nav .navbar .brand-name div span{
     width: 100vw;
     /* height: 36vw; */
     /* background-color: #f08080; */
-    background-color: #3a00e9;
+    background-color: #673DE6;
     padding: 2.7rem;
     display: flex;
     justify-content: center;
@@ -226,14 +226,38 @@ nav .navbar .brand-name div span{
 
 .pricing .brand-icons i{
     font-size: 2rem;
-    color: rgb(153, 151, 151);
+    color: rgb(182, 189, 211);
     margin-right: 0.3em;
 }
 
 .pricing .brand-icons span{
     font-size: 1.2rem;
     font-weight: 600;
-    color: rgb(153, 151, 151);
+    color: rgb(182, 189, 211);
+}
+/* FFE7B9 727586 897986*/
+
+.pricing .pricing-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pricing .pricing-section .plan-intro{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pricing .pricing-section .plan-intro h1{
+    color: #2f1c6a;
+}
+
+.pricing .pricing-section .plan-intro p{
+    color: #897986;
 }
 
 
