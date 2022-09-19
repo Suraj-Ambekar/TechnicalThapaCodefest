@@ -375,15 +375,95 @@ nav .navbar .brand-name div span{
     border-radius: 20px;
 }
 
-/* .search .container .c2 button{
-    width: 30%;
-    padding: 0.8rem 1.7rem;
-    background-color: #727586;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 700;
-    border: none;
-    border-radius: 20px;
-    position: relative;
-    right: 50px;
-} */
+
+/* section 4 - information section */
+
+.info{
+    background-color: white;
+    /* padding: 8rem 11rem; */
+    padding-top: 6rem;
+    padding-left: 12rem;
+}
+
+.info .container{
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr); */
+    grid-template-areas: 
+    "a b"
+    "c d"
+    "e f"
+    "g h"
+    "i j";
+    grid-gap: 10px;
+    
+}
+
+.info .container .sub-info{
+    padding: 1rem;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.info .container .para{
+    width: 75%;
+}
+
+.info .container .sub-info h5{
+    color: gray;   
+    font-size: 0.875rem;
+}
+
+
+.info .container .sub-info h1{
+    font-size: 2.125rem;
+    color: #2f1c6a;    
+}
+
+.info .container .sub-info p{
+    color: gray;
+}
+
+.info .container .sub-info a{
+    color: #2f1c6a;
+}
+
+
+.info .container .sub-info video{
+    width: 80%;
+}
+
+#a{
+    grid-area: a;
+}
+#b{
+    grid-area: b;
+}
+#c{
+    grid-area: c;
+}
+#d{
+    grid-area: d;
+}
+#e{
+    grid-area: e;
+}
+#f{
+    grid-area: f;
+}
+#g{
+    grid-area: g;
+}
+#h{
+    grid-area: h;
+}
+#i{
+    grid-area: i;
+}
+#j{
+    grid-area: j;
+}
