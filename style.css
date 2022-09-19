@@ -467,3 +467,45 @@ nav .navbar .brand-name div span{
 #j{
     grid-area: j;
 }
+
+/* section 4 - part 2 */
+
+
+.contain #heading{
+    margin-top: 1rem;
+    margin-bottom: 5.5rem;
+    text-align: center;
+    font-size: 2.125rem;
+    color: #2f1c6a;    
+}
+
+.contain .subb-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7.1rem;
+    /* justify-content: space-between; */
+}
+
+.contain .subb-info video{
+    width: 50%;
+}
+
+.contain .subb-info .cinfo{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contain .subb-info .cinfo span, i{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: #2f1c6a;
+    margin-bottom: 1rem;
+}
+
+.contain .subb-info .cinfo p{
+    margin-top: 1.5rem;
+    color: gray;
+}
+
