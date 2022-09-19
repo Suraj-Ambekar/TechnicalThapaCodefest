@@ -298,3 +298,92 @@ nav .navbar .brand-name div span{
     padding: 0.3rem;
     font-size: 1.2rem;
 }
+
+
+/* section 3- search section */
+
+
+.search{
+    background-color: #f4f5ff;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .container{
+    
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.search .container .c1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+/*  */
+.search .container h1{
+    /* width: 70%; */
+    color: #2f1c6a;
+    font-size: 2.2rem;
+}
+
+.search .container p{
+    /* text-align: center; */
+    color: #2f1c73;
+    /* width: 70%; */
+}
+
+.search .container .c2{
+    text-align: center;
+    width: 70%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .container .c2 input{
+    width: 100%;
+    padding: 12px 10px 12px 10px;
+    font-size: 1.2rem;
+    border: 1px solid gray;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 0px 5px gray;    
+    height: 50px;
+}
+
+.search .container .c2 button{
+    position: relative;
+    right: 20px;
+    /* padding: 10px 15px; */
+    padding: 0.9rem 2rem;
+    background-color: #727586;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+}
+
+/* .search .container .c2 button{
+    width: 30%;
+    padding: 0.8rem 1.7rem;
+    background-color: #727586;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    right: 50px;
+} */
