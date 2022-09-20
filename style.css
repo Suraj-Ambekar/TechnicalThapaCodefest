@@ -534,3 +534,17 @@ nav .navbar .brand-name div span{
     border: none;
     border-radius: 30px;
 }
+
+footer .f .hinfo{
+    width: 36%;
+}
+
+footer .f .footer-menu{
+    width: 18%;
+}
+
+footer .f{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
