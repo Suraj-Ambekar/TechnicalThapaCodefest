@@ -509,3 +509,28 @@ nav .navbar .brand-name div span{
     color: gray;
 }
 
+.money{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.money h1{
+    font-size: 2.125rem;
+    color: #2f1c6a;
+}
+
+.money p{
+    color: #2f1c6a;
+}
+
+.money button{
+    color: white;
+    background-color: #673DE6;
+    font-weight: 700;
+    font-size: large;
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: 30px;
+}
